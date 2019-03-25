@@ -20,5 +20,12 @@ public class SpringTransactionTest {
 	public void testBookShopDaoUpdateBookStock() {
 		bookShopDao.updateBookStock("1001");
 	}
+	
+	@Test
+	public void testBookShopDaoUpdateUser(){
+		bookShopDao.updateUserAccount("AA", 200);
+	}
+	
+	
 
 }

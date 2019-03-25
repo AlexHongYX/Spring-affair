@@ -11,12 +11,6 @@
 						http://www.springframework.org/schema/aop 
 						http://www.springframework.org/schema/aop/spring-aop-4.3.xsd" default-lazy-init="true">
 	
-		<!-- 加上default属性 -->
-	
-	<!-- 
-		导入资源文件 
-		<context:property-placeholder location="classpath:db.properties"/>
-	-->
 
 	<!-- 配置自动扫描的包 -->
 	<context:component-scan base-package="com.fehead.spring.tx"></context:component-scan>
